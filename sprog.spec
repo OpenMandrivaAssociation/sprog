@@ -1,7 +1,7 @@
 %define module	Sprog
 %define name	sprog
 %define version	0.14
-%define	release	1mdk
+%define	release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
