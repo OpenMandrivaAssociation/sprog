@@ -12,7 +12,6 @@ Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
 Url:		http://sprog.sourceforge.net/
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-Apache-LogRegex
 BuildRequires:	perl-devel
 BuildRequires:	perl-Gnome2-Canvas
