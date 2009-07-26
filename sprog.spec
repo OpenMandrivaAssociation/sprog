@@ -1,7 +1,9 @@
 %define module	Sprog
 %define name	sprog
 %define version	0.14
-%define	release	%mkrel 4
+%define	release	%mkrel 5
+
+%define	_requires_exceptions perl(Sprog::Gear::$parent)
 
 Name:		%{name}
 Version:	%{version}
@@ -11,13 +13,13 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
 Url:		http://sprog.sourceforge.net/
-BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-Apache-LogRegex
 BuildRequires:	perl-devel
 BuildRequires:	perl-Gnome2-Canvas
 BuildRequires:	perl-Gtk2-GladeXML
 BuildRequires:	perl-Imager
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Sprog is a tool for working with data. It allows you to do all the things those
