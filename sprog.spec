@@ -57,3 +57,38 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 %{_bindir}/sprog
 
+
+
+%changelog
+* Sun Jul 26 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.14-5mdv2010.0
++ Revision: 400262
+- fix dependencies
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.14-3mdv2009.0
++ Revision: 253009
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.14-1mdv2008.1
++ Revision: 127566
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import sprog
+
+
+* Sun Jul 31 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.14-1mdk
+- 0.14
+
+* Mon Jul 04 2005 Lenny Cartier <lenny@mandriva.com> 0.13-1mdk
+- 0.13
+
+* Tue Jun 28 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.12-1mdk
+- 0.12
+
+* Fri Jun 24 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.11-1mdk
+- First Mandriva release
