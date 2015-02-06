@@ -2,7 +2,7 @@
 
 Name:		sprog
 Version:	0.14
-Release:	6
+Release:	7
 Summary:	A graphical tool to build programs by plugging parts together
 License:	GPL or Artistic
 Group:		Development/Perl
