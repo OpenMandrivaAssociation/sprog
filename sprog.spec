@@ -7,7 +7,7 @@ Summary:	A graphical tool to build programs by plugging parts together
 License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
-Url:		http://sprog.sourceforge.net/
+Url:		https://sprog.sourceforge.net/
 BuildRequires:	perl-Apache-LogRegex
 BuildRequires:	perl-devel
 BuildRequires:	perl-Gnome2-Canvas
